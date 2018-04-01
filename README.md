@@ -1,6 +1,6 @@
 # Tiny13 Firefles #
 
-- the LEDs flicker randomly immitating fireflies
+- the LEDs flicker randomly imitating fireflies
 - 6 LEDs on 3 pins(PB0-PB2) using charlieplexing and bit angle modulation(more efficient PWM alternative for leds) for dimming
 - BAM implemented with hardware timer in CTC mode
 - could easily be scaled to 20 LEDs with almost no code changes(rewriting charlieplexing bitmasks)
