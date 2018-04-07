@@ -8,7 +8,7 @@
 
 #define SLOWNESS 18                     // how infrequently we should try changing brightness
 #define ACCEL 56                        // chance of actually changing the brightness (higher - less likely)
-#define DIM_L 57                        // chance of staying dim (ACCEL+1 is highest)
+#define DIM_L 58                        // chance of staying dim (ACCEL+1 is highest)
 
 register uint8_t occount asm("r3");
 register uint8_t led_i   asm("r4");
