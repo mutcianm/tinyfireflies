@@ -4,7 +4,7 @@
 
 #define ROR(x) (((x) >> 1) | ((x) << 7))
 #define LED_ON(x)  do {DDRB = chrlp[(x)] | 0xF0; PORTB = chrlp[(x)] >> 4;} while(0)
-#define LED_OFF()  do {DDRB = 0xff; PORTB = 0x00;} while(0)
+#define LED_OFF()  do {DDRB = 0x00; PORTB = 0x00;} while(0)
 
 #define SLOWNESS 18                     // how infrequently we should try changing brightness
 #define ACCEL 56                        // chance of actually changing the brightness (higher - less likely)

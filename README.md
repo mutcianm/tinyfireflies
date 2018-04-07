@@ -9,9 +9,8 @@
 
 ## TODO
 
-- watchdog for even deeper sleep duting dim phase
+- watchdog for even deeper sleep during dim phase
 - button for toggling power(manual deep sleep)
-- reduce parasitic flickering on powered down LEDs
 
 ### Example videos
 [![demo board](https://i.imgur.com/Mfi7AtL.png?2)](https://i.imgur.com/cufzkq7.mp4) [![bottled](https://i.imgur.com/VsxKpeM.png)](https://i.imgur.com/o5OHXny.mp4)
